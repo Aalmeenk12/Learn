@@ -1,6 +1,6 @@
 package com.automation.test.learn;
 
-import org.openqa.selenium.By;		
+//import org.openqa.selenium.By;		
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;		
@@ -17,7 +17,8 @@ public class NewTest {
 		}	
 		@BeforeTest
 		public void beforeTest() {	
-		    driver = new ChromeDriver();  
+			System.setProperty("webdriver.chrome.driver","E:\\Desktop\\workspace\\learn\\chromedriver.exe");
+			driver = new ChromeDriver();  
 		}		
 		@AfterTest
 		public void afterTest() {

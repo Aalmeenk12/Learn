@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="0" started-at="2020-05-07T12:52:25Z" finished-at="2020-05-07T12:52:25Z">
+  <suite name="Default suite" duration-ms="22606" started-at="2020-05-09T19:17:01Z" finished-at="2020-05-09T19:17:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="0" started-at="2020-05-07T12:52:25Z" finished-at="2020-05-07T12:52:25Z">
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    <test name="Default test" duration-ms="22606" started-at="2020-05-09T19:17:01Z" finished-at="2020-05-09T19:17:24Z">
+      <class name="com.automation.test.learn.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automation.test.learn.NewTest@23ceabc1]" name="beforeTest" is-config="true" duration-ms="16760" started-at="2020-05-10T00:47:01Z" finished-at="2020-05-10T00:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:com.automation.test.learn.NewTest@23ceabc1]" name="testEasy" duration-ms="4730" started-at="2020-05-10T00:47:18Z" finished-at="2020-05-10T00:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEasy -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automation.test.learn.NewTest@23ceabc1]" name="afterTest" is-config="true" duration-ms="1097" started-at="2020-05-10T00:47:23Z" finished-at="2020-05-10T00:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.automation.test.learn.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
